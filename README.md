@@ -1,3 +1,6 @@
+useful links:
+- yahoo download: http://blog.csdn.net/stanmarsh/article/details/9795485
+
 - download russell 3000 membership list from
     https://www.russell.com/documents/indexes/membership/membership-russell-3000.pdf
 - ctrl-a/c to membership-russell-3000.txt, remove the nontable portion
@@ -12,4 +15,7 @@
     ./download_china_tickers.py --category bsz --num_pages 1 --download_dir data/china/bsz/
 - extract tickers
     ./extract_china_tickers.py --base_dir data/china/ --categories ash,bsh,asz,bsz --ticker_file data/china/tickers.txt
+
+- download exchange rates from
+    http://www.currency-converter.org.uk/currency-rates/historical/table/USD-CNY.html
 
